@@ -1,4 +1,4 @@
-# Problem C
+# Problem B
 
 In this exercise, you'll practice using **media queries** to create responsive web pages.
 

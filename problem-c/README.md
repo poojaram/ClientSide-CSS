@@ -1,4 +1,4 @@
-# Problem A
+# Problem C
 
 In this exercise, you'll practice styling a page using the **Bootstrap** CSS framework, and its responsive grid system in particular..
 
