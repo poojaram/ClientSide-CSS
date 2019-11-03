@@ -1,4 +1,62 @@
 body {
   font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  padding: 1em;
+}
+
+main>.flex-container {
+  height: 100%;
+}
+
+div>.flex-item:nth-child(1) {
+    flex-basis: 240px;
+}
+
+div>.flex-item:nth-child(2) {
+  flex: 1;
+  background-color: #eee;
+}
+
+div>.flex-item:nth-child(3) {
+  flex-basis: 180px;
+  flex-shrink: 0;
+}
+
+section>.flex-container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section>div>div {
+  flex: 0 0 250px;
+  background-color: white;
+  margin: .5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+}
+
+.flex-container>div>p {
+  padding: .5rem 1rem;
+}
+body>.flex-container {
+  flex-direction: column;
+}
+
+html {
+  height: 100%;
+}
+
+main {
+  flex: 1;
 }
