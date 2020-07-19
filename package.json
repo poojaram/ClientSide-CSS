@@ -13,7 +13,7 @@
     "css": "^2.2.3",
     "inline-css": "^2.4.0",
     "jest-style-matchers": "^0.1.1",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "md5": "^2.2.1"
   },
   "dependencies": {
